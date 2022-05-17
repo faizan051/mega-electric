@@ -1,0 +1,216 @@
+@media (max-width:1024px)
+{
+    h1
+    {
+        font-size: 3.25rem;
+    }
+
+    h2
+    {
+        font-size: 1.25rem;
+        line-height: 1.8rem;
+    }
+
+    .wrapper
+    {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+}
+
+@media (max-width:991px)
+{
+    h4,
+    .choose .card a h4 
+    {
+        font-size: 0.9375rem;
+        margin: 0.63rem;
+    }
+
+    p
+    {
+        font-size: 0.81rem;
+        line-height: 1.31rem;
+        color: gray;
+    }
+
+    .text-content
+    {
+        width: 100%;
+    }
+
+    .features .card .icon
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /* Slider design */
+
+    #home
+    {
+        padding: 4.375rem 0 0.375rem;
+    }
+
+    /* navbar design */
+
+    .navigation-wrap .navbar-brand img
+    {
+      height: 2.8125rem;
+    }
+
+    .navbar-toggler 
+    {
+        color: var(--text-color)
+    }
+
+    .navbar-toggler i
+    {
+        color: var(--text-color);
+        line-height: 2;
+    }
+
+    .navigation-wrap 
+    {
+        text-align: center;
+        background: var(--black-color);
+
+    }
+
+    .navigation-wrap .nav-link
+    {
+        line-height: 1.875rem;
+
+    }
+
+    /* slider design */
+    .main-slider .carousel-caption
+    {
+        transform: translate(-70%, -50%);
+    }
+
+    
+}
+
+@media (max-width:767px)
+{
+  .main-btn
+  {
+      margin: auto;
+  }  
+
+  .text-sec
+  {
+      text-align: center;
+      padding-top: 1.875rem;
+  }
+  h2::before
+  {
+      left: 45%;
+  }
+
+  .main-slider .carousel-caption
+  {
+      transform: translate(-45%, -70%);
+  }
+
+  .main-slider .carousel-caption h2::before
+  {
+      left: 0;
+  }
+}
+
+
+@media (max-width:575px)
+{
+    h1
+    {
+        font-size: 1.4rem;
+        margin-bottom: 0.675rem;
+    }
+
+   
+
+
+    h2
+    {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .sale-slider,
+    .feature-img,
+    .style-img
+    {
+        width: 50%;
+        margin: auto;
+    }
+
+    .install.carousel-inner
+    {
+        border-radius: 0 0 1.875rem;
+    }
+
+    .pt-1 {
+        margin: 23px;
+        padding-top: 0.25rem!important;
+    }
+
+    form input[type=email],
+form input[type=text],
+.btn-sub
+{
+
+    padding: 0 0.0625rem;
+    font: 0.875rem;
+    text-align: center;
+}
+
+.btn-sub
+{
+    font-size: 0.875rem;
+}
+
+form .from-group,
+form [type=text]
+{
+
+    margin: 0;
+    width: 100%;
+}
+
+form .from-group
+{
+    white-space: nowrap;
+}
+
+form input[type=email]
+{
+width: 50%;
+}
+
+form input[type=text]
+{
+  margin-bottom: 1rem;
+}
+
+}
+
+@media (max-width:430px)
+{
+    h2::before
+    {
+        top: -0.8rem;
+    }
+    h2
+{
+    line-height: 2rem;
+}
+    .main-slider .carousel-caption p
+  {
+      font-size: 0.75rem;
+      line-height: 1.125rem;
+  }
+}
